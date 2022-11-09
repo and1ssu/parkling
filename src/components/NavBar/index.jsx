@@ -42,6 +42,7 @@ export default function NavBar() {
           <Link
             onClick={() => {
               navigate("/");
+              setSidebar(false);
             }}
           >
             Entrada
@@ -49,6 +50,7 @@ export default function NavBar() {
           <Link
             onClick={() => {
               navigate("/exit");
+              setSidebar(false);
             }}
           >
             Saída
